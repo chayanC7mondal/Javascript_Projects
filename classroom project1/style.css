@@ -23,7 +23,9 @@
     --accent-4: #e6c3ce;
     --accent-5: #fff2f7;
   }
-  
+  #your-grade{
+    border-radius: 3px;
+  }
   body {
     background-color: var(--neutral-5);
     margin: 0;
@@ -32,7 +34,10 @@
   h1 {
     font-size: 36px;
     font-weight: 600;
-  
+  }
+  .nav-brand{
+    
+  margin-left: 40%;
   }
   
   h2 {
