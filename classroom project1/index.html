@@ -17,5 +17,30 @@
             <input type="number" min="0" max="20" class="input" required placeholder="Grade (0 and 20)" id="your-grade">
             <input type="submit" class="btn btn-accent" value="Add" />
         </form>
+    
+        <table border="1" id="stats-table" class="table table-center">
+            <thead>
+                <tr>
+                    <th width="33%">Number of tests taken</th>
+                    <th width="33%">Sum of grades</th>
+                    <th>Average grade</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <table border="1" id="stats-table2" class="table table-center">
+            <thead>
+                <tr>
+                    <th width="33%">Passing grades</th>
+                    <th width="33%">Failing grades</th>
+                    <th>Raised grades</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </main>
+    
 </body>
+<script src="classroom.js"></script>
+<script type="module" src="index.js"></script>
 </html>
